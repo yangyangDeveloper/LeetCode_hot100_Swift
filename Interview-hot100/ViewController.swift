@@ -55,9 +55,30 @@ class ViewController: UIViewController {
         //test160()
         //test121()
         //test912()
-        test82()
+        //test82()
+        //test338()
+        
+        var arr = [1,2,3,4,5]
+        var res = arr.removeFirst(2)
+        
+       // test5()
+        
+        test139()
+
     }
     
+    func test139() {
+        let s = "leetcode"
+        let wordDict = ["leet", "code"]
+        let n = Solution_139().wordBreak(s, wordDict)
+        
+    }
+    
+    func test5() {
+        let s = "cbbd"
+        //let t = Solution_5().longestPalindrome(s)
+        
+    }
     func test206() {
         let node1 = ListNode(1)
         let node2 = ListNode(2)
@@ -184,6 +205,12 @@ class ViewController: UIViewController {
         let t = Solution_82().deleteDuplicates2(node1)
         
         print(t)
+    }
+    
+    func test338() {
+        
+        let t = Solution_338().countBits(5)
+        
     }
 }
 
