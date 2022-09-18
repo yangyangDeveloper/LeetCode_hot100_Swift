@@ -63,9 +63,56 @@ class ViewController: UIViewController {
         
        // test5()
         
-        test139()
-
+       // test139()
+        
+        //test724()
+        
+       // test287()
+       // test347()
+       // test253()
+        test394()
     }
+   
+    func test394() {
+        let s = "3[a]2[bc]"
+        let t = Solution_394().decodeString(s)
+        
+    }
+    
+    
+    func test253() {
+        var nums = [[0,30],[5,10],[15,20]]
+        var n = nums.sorted(by: { $0[0] < $1[0]})
+        print(nums)
+        let t = Solution_253().minMeetingRooms(nums)
+    }
+    
+    func test() {
+       // var priorityQueue = PriorityQueue<Int>(order: >)
+        
+    }
+    
+    
+    func test347() {
+        let nums = [1,1,6,7,8,8]
+        var k = 2
+        let t = Solution_347().topKFrequent(nums, 2)
+        
+    }
+    
+    func test287() {
+        let nums = [1,2,2,3,4]
+        let t = Solution_287().findDuplicate(nums)
+        
+    }
+    
+    
+    func test724() {
+        let nums =  [1, 7, 3, 6, 5, 6]
+        let t = Solution_724().pivotIndex(nums)
+        
+    }
+    
     
     func test139() {
         let s = "leetcode"
